@@ -265,7 +265,7 @@ footer p {
     font-size: .55em;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:568px) {
     .container {
         grid-template-rows: repeat(8, auto);
         grid-template-areas: "header""sidebar""main""help""sidebar_related""gallery""footer";
