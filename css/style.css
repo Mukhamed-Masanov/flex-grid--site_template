@@ -10,6 +10,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #d9d9d9;
+   
+        
     color: #434343;
 }
 
@@ -50,10 +52,6 @@ a {
 .login:focus {
     background-color: #52864b;
 }
-
-
-
-
 header {
     display: flex;
     justify-content: space-between;
@@ -76,7 +74,6 @@ ul > li {
 .hero {
     grid-column: 1/2;
     grid-row: 2/3;
-
 }
 
 .hero > img {
@@ -106,8 +103,6 @@ ul > li {
 .sidebar li {
     margin:
 }
-
-
 main {
     grid-column: 2/4;
     grid-row: 2/4;
@@ -123,8 +118,6 @@ main p {
     margin: .7em 0;
     color: #8b7f7f;
 }
-
-
 .help {
     grid-column: 2/4;
     grid-row: 4/5;
@@ -132,7 +125,6 @@ main p {
     justify-content: space-around;
     border: 1.5px solid #d9d9d9;
     padding: 1em;
-
 }
 
 .help_item {
@@ -143,7 +135,6 @@ main p {
 
 .help_item h3 {
     font-weight: 700;
-
 }
 
 .help_item p {
@@ -158,14 +149,6 @@ main p {
     cursor: pointer;
     padding: .5em;
 }
-
-
-
-
-
-
-
-
 .gallery {
     grid-column: 1/3;
     grid-row: 5/6;
@@ -177,42 +160,30 @@ main p {
 .gallery img {
     width: 100%;
 }
-
 .sidebar_related {
     grid-column: 3/4;
     grid-row: 5/6;
     padding: 2em;
-
-
-
 }
-
 .sidebar_related h3 {
     margin-bottom: .5em;
     padding-bottom: .5em;
     border-bottom: 1px solid #d9d9d9;
-
 }
-
 .sidebar_related a {
     font-size: .75em;
     font-weight: 500;
     color: #838383;
     margin-left: .2em;
 }
-
 .sidebar_related ul {
     margin-left: 1.1em;
 }
-
-
-
 footer {
     grid-column: 1/4;
     grid-row: 6/7;
     text-align: center;
     background-color: #9f9c9c;
-
     padding: 2em 0;
 }
 
@@ -231,17 +202,11 @@ footer p {
         grid-template-rows: repeat(8, auto);
         grid-template-areas: "header""sidebar""main""help""sidebar_related""gallery""footer";
         grid-template-columns: 100%;
-
-
-
-
     }
 
     header {
         grid-area: header;
     }
-
-
     .hero {
         display: none;
     }
@@ -291,17 +256,10 @@ footer p {
         display: flex;
         justify-content: space-around;
     }
-    
-    
-
     .sidebar_related h3 {
         text-align: center;
     }
-
-
     footer {
         grid-area: footer;
     }
-
-
 }
